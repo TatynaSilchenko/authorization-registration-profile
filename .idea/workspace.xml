@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="add login page, register page and fogot password">
+    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VFv9CZyJ3Wf7B4gOu7qUj8IzRS" />
@@ -38,6 +43,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -87,8 +93,23 @@
       <workItem from="1579162459275" duration="7867000" />
       <workItem from="1579273085820" duration="9469000" />
       <workItem from="1579684003700" duration="1349000" />
-      <workItem from="1579685383509" duration="2439000" />
+      <workItem from="1579685383509" duration="3367000" />
     </task>
+    <task id="LOCAL-00001" summary="add login page, register page and fogot password">
+      <created>1579687841227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579687841227</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add login page, register page and fogot password">
+      <created>1579688389135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579688389135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,14 +137,30 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864@62.0.1474.864" timestamp="1579684387971" />
-    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579687159843">
+    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579688409738">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579687159843" />
+    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579688409738" />
     <state x="580" y="191" key="FileChooserDialogImpl" timestamp="1579684260401">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="580" y="191" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1579684260401" />
+    <state x="164" y="107" key="MergeDialog" timestamp="1579688266322">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="164" y="107" key="MergeDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688266322" />
+    <state x="475" y="183" key="MultipleFileMergeDialog" timestamp="1579688352515">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="475" y="183" key="MultipleFileMergeDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688352515" />
+    <state x="355" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579688400477">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="355" y="201" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1579688400477" />
+    <state x="461" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579688347975">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="461" y="181" key="git4idea.branch.GitSmartOperationDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688347975" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
