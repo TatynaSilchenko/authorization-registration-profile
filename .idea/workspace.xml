@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Features/Fogot/FogotBLL/FogotReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Features/Fogot/FogotUI/Fogot.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Features/Register/RegisterBLL/RegisterReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Features/Register/RegisterUI/Register.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Features/SignIn/SighInUI/SignIn.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Features/SignIn/SignInBLL/SignInReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Routers.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/store.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +102,7 @@
       <workItem from="1579162459275" duration="7867000" />
       <workItem from="1579273085820" duration="9469000" />
       <workItem from="1579684003700" duration="1349000" />
-      <workItem from="1579685383509" duration="3367000" />
+      <workItem from="1579685383509" duration="4194000" />
     </task>
     <task id="LOCAL-00001" summary="add login page, register page and fogot password">
       <created>1579687841227</created>
@@ -137,10 +146,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864@62.0.1474.864" timestamp="1579684387971" />
-    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579688409738">
+    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579689582389">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579688409738" />
+    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579689582389" />
     <state x="580" y="191" key="FileChooserDialogImpl" timestamp="1579684260401">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -149,18 +158,18 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="164" y="107" key="MergeDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688266322" />
-    <state x="475" y="183" key="MultipleFileMergeDialog" timestamp="1579688352515">
+    <state x="475" y="183" key="MultipleFileMergeDialog" timestamp="1579688833974">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="475" y="183" key="MultipleFileMergeDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688352515" />
+    <state x="475" y="183" key="MultipleFileMergeDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688833974" />
     <state x="355" y="201" key="Vcs.Push.Dialog.v2" timestamp="1579688400477">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="355" y="201" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1579688400477" />
-    <state x="461" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579688347975">
+    <state x="461" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579688828834">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="461" y="181" key="git4idea.branch.GitSmartOperationDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688347975" />
+    <state x="461" y="181" key="git4idea.branch.GitSmartOperationDialog/62.0.1474.864@62.0.1474.864" timestamp="1579688828834" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -168,7 +177,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/UI/Features/Fogot/ForgotUI/ForgotContainer.tsx</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
