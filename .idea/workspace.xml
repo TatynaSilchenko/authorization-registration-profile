@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/authorization-registration-profile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/MainBll/store.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/FogotReducer.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotActions.ts" afterDir="false" />
@@ -116,7 +121,7 @@
       <workItem from="1579162459275" duration="7867000" />
       <workItem from="1579273085820" duration="9469000" />
       <workItem from="1579684003700" duration="1349000" />
-      <workItem from="1579685383509" duration="1458000" />
+      <workItem from="1579685383509" duration="1709000" />
     </task>
     <servers />
   </component>
@@ -141,6 +146,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864@62.0.1474.864" timestamp="1579684387971" />
+    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579687159843">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579687159843" />
     <state x="580" y="191" key="FileChooserDialogImpl" timestamp="1579684260401">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
