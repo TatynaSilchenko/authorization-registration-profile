@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/register_logic.iml" filepath="$PROJECT_DIR$/.idea/register_logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/authorization-registration-profile.iml" filepath="$PROJECT_DIR$/.idea/authorization-registration-profile.iml" />
     </modules>
   </component>
 </project>

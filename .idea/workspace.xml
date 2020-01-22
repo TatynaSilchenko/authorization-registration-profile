@@ -1,7 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MainBll/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/FogotReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotInitialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotThunks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotDAL/ForgotAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/ForgotUI/Forgot.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/ForgotUI/ForgotContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterBll/registerReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterBll/registerThunk.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterDal/RegisterAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterUI/Register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterUI/RegisterContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInBll/SignInReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInBll/SignInThunk.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInDal/SignInAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInUI/SignIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInUI/SignInContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Routes/Routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/base-url.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/instance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/validators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VFv9CZyJ3Wf7B4gOu7qUj8IzRS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Features\Sign_in\SignInUI" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Features\Register\RegisterUI" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Main" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\UI\Main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\helpers" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Features\Fogot\FogotDAL" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Features\Fogot\FogotBll" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Features\Sign_in\SignInUI" />
+      <recent name="D:\React_SN\Tests\authorization-registration-profile\authorization-registration-profile\src\UI\Features\Register\RegisterUI" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="" />
+      <created>1576861503349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576861503349</updated>
+      <workItem from="1576861505834" duration="10074000" />
+      <workItem from="1576871609061" duration="277000" />
+      <workItem from="1577461953932" duration="15526000" />
+      <workItem from="1577478989503" duration="2415000" />
+      <workItem from="1578993374176" duration="87000" />
+      <workItem from="1578993622125" duration="18059000" />
+      <workItem from="1579162459275" duration="7867000" />
+      <workItem from="1579273085820" duration="9469000" />
+      <workItem from="1579684003700" duration="1349000" />
+      <workItem from="1579685383509" duration="1458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579684387971">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864@62.0.1474.864" timestamp="1579684387971" />
+    <state x="580" y="191" key="FileChooserDialogImpl" timestamp="1579684260401">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="580" y="191" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1579684260401" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/UI/Features/Fogot/ForgotUI/ForgotContainer.tsx</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
