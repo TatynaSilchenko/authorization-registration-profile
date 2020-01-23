@@ -1,16 +1,20 @@
 import React from 'react';
 
-interface ForgotProps {
+interface IDataProps{
     email:string,
-    setFogotCallBack:(email:string)=>void,
-    setForgot:()=>void,
     error:string
 }
+interface ICallBacks{
+    setFogotCallBack:(email:string)=>void,
+    setForgot:()=>void
+}
 
-const Forgot: React.FC<ForgotProps> = ({email,setFogotCallBack,setForgot,error}) => {
+type IForgotProps=IDataProps&ICallBacks
+
+const Forgot: React.FC<IForgotProps> = ({email,setFogotCallBack,setForgot,error}) => {
 
     return (
-        <div style={{  height: '80vh',
+        <div style={{  height: '50vh',
             display: 'flex',
             flexFlow: 'column',
             alignItems: 'center',

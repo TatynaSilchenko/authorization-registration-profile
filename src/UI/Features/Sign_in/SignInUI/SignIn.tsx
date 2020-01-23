@@ -20,7 +20,11 @@ const SignIn:React.FC<IProps>=({email,loginSetEmail,
                                    loginRememberMe,error,
                                    success})=>{
 
-    return <div>
+    return  <div style={{  height: '50vh',
+        display: 'flex',
+        flexFlow: 'column',
+        alignItems: 'center',
+        justifyContent: 'center'}}>
        <div> Sign In </div>
         {(error)&&<div style={{color:'red'}}>{error}</div>}
         {(success)&&<div style={{color:'green'}}> 'You are in your account'</div>}

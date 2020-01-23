@@ -23,7 +23,11 @@ const Register:React.FC<IProps>=(
         registerCallBack,successRegister,
         errorRegister})=>{
 
-    return <div>
+    return  <div style={{  height: '50vh',
+        display: 'flex',
+        flexFlow: 'column',
+        alignItems: 'center',
+        justifyContent: 'center'}}>
         Register
                <div><input type='email' placeholder='Enter your email' value={email} onChange={e=>registerSetEmail(e.currentTarget.value)}/></div>
         <div><input type='password' placeholder='Enter your password' value ={password}onChange={e=>registerSetPassword(e.currentTarget.value)}/></div>
