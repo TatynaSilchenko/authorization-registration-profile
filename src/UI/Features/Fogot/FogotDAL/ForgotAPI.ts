@@ -1,9 +1,5 @@
-import axios from 'axios';
-import {baseURL} from "../../../../helpers/base-url";
 
-const instance = axios.create({
-    baseURL
-});
+import {instance} from "../../../../helpers/instance";
 
 interface IFogot {
     success:boolean,

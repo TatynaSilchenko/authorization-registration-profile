@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="">
+    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="add login page, register page and fogot password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Features/Fogot/FogotBLL/FogotReducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Features/Fogot/FogotUI/Fogot.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Features/Register/RegisterBLL/RegisterReducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Features/Register/RegisterUI/Register.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Features/SignIn/SighInUI/SignIn.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Features/SignIn/SignInBLL/SignInReducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Routers.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/store.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +93,7 @@
       <workItem from="1579162459275" duration="7867000" />
       <workItem from="1579273085820" duration="9469000" />
       <workItem from="1579684003700" duration="1349000" />
-      <workItem from="1579685383509" duration="4194000" />
+      <workItem from="1579685383509" duration="4527000" />
     </task>
     <task id="LOCAL-00001" summary="add login page, register page and fogot password">
       <created>1579687841227</created>
