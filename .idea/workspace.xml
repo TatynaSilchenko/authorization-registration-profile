@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="add login page, register page and fogot password">
-      <change afterPath="$PROJECT_DIR$/src/part_2/BLL/BooleaReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part_2/TestColor/TestColor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part_2/TestModals/TestModals.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part_2/TestTime/TestTime.tsx" afterDir="false" />
+    <list default="true" id="319b2bf8-9306-4b70-975a-2430c429d95b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainBll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainBll/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/FogotReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/FogotReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotActions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotInitialState.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotThunks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/FogotBll/forgotThunks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Fogot/ForgotUI/Forgot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Fogot/ForgotUI/Forgot.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Register/RegisterBll/registerReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterBll/registerReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Register/RegisterUI/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterUI/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Register/RegisterUI/RegisterContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Register/RegisterUI/RegisterContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInBll/SignInReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInBll/SignInReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInUI/SignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInUI/SignIn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInUI/SignInContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Features/Sign_in/SignInUI/SignInContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Routes/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +94,7 @@
       <workItem from="1579273085820" duration="9469000" />
       <workItem from="1579684003700" duration="1349000" />
       <workItem from="1579685383509" duration="4527000" />
-      <workItem from="1579764936095" duration="5486000" />
+      <workItem from="1579764936095" duration="5738000" />
     </task>
     <task id="LOCAL-00001" summary="add login page, register page and fogot password">
       <created>1579687841227</created>
@@ -130,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579688389135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new routers:modals,test time,test color">
+      <created>1579770641340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579770641340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,17 +138,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add login page, register page and fogot password" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login page, register page and fogot password" />
+    <MESSAGE value="add new routers:modals,test time,test color" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new routers:modals,test time,test color" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579684387971">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="493" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1474.864@62.0.1474.864" timestamp="1579684387971" />
-    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579770615696">
+    <state x="312" y="64" key="CommitChangelistDialog2" timestamp="1579770648087">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579770615696" />
+    <state x="312" y="64" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1579770648087" />
     <state x="580" y="191" key="FileChooserDialogImpl" timestamp="1579767617542">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
