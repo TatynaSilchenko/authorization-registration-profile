@@ -7,31 +7,15 @@ export const REGISTER_SUCCESS = 'REGISTER/SUCCESS';
 //12345
 
 export const initialState = {
-    email: '',//tania@
-    password: '',//1234
-    password2:'',
     success: false,
     error: ''
 }
 
 interface IInitialState {
-    email: string,
-    password: string,
-    password2:string,
     success: boolean,
     error: string
 }
 
-interface ISetEmailAction {
-    type: typeof SET_EMAIL,
-    email: string
-}
-
-interface ISetPasswordAction {
-    type: typeof SET_PASSWORD,
-    password: string,
-    password2:string
-}
 
 interface IRegisterError {
     type: typeof REGISTER_ERROR,
@@ -43,14 +27,11 @@ interface IRegisterSuccess {
     success: boolean
 }
 
-export type IRegisterActions = ISetEmailAction | ISetPasswordAction | IRegisterError | IRegisterSuccess
+export type IRegisterActions = IRegisterError | IRegisterSuccess
 
 export const registerReducer = (state = initialState, action: IRegisterActions) => {
     switch (action.type) {
-        case SET_EMAIL:
-            return {...state, email: action.email}
-        case SET_PASSWORD:
-            return {...state, password: action.password,password2:action.password2}
+
         case REGISTER_SUCCESS:
             return {...state, success: action.success}
         case REGISTER_ERROR:
@@ -60,13 +41,6 @@ export const registerReducer = (state = initialState, action: IRegisterActions) 
         }
     }
 }
-
-export const registerSetEmailSuccess = (email: string): ISetEmailAction => ({
-    type: SET_EMAIL, email
-})
-export const registerSetPasswordSuccess = (password: string,password2:string): ISetPasswordAction => ({
-    type: SET_PASSWORD, password,password2
-})
 
 export const registerError = (error: string): IRegisterError => ({
     type: REGISTER_ERROR, error

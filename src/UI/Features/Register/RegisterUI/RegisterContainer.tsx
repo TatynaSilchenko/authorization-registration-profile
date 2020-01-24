@@ -2,10 +2,10 @@ import Register from "./Register";
 import React, {useEffect, useState} from "react";
 import {registerValidatorCallBack} from "../RegisterBll/registerThunk";
 import {useDispatch, useSelector} from "react-redux";
-import {registerSetEmailSuccess, registerSetPasswordSuccess} from "../RegisterBll/registerReducer";
 import {AppStateType} from "../../../../MainBll/store";
 import {Redirect} from "react-router";
-import {SIGN_IN_PATH} from "../../../Routes/Routes";
+import {SIGN_IN_PATH} from "../../../../Routes/Routes";
+
 
 const RegisterContainer: React.FC = () => {
     // const email = useSelector((store: AppStateType) => store.register.email);
@@ -24,8 +24,6 @@ const RegisterContainer: React.FC = () => {
     })*/
 
     const registerCallBack=()=>{
-        dispatch(registerSetEmailSuccess(email))
-       dispatch(registerSetPasswordSuccess(password,password2))
         dispatch(registerValidatorCallBack(email,password,password2))
         setEmail('')
         setPassword('')
@@ -60,9 +58,4 @@ const RegisterContainer: React.FC = () => {
     )
 }
 
-// const mapStateToProps = (state: AppStateType) => ({
-//     email: state.register.email,
-//     password: state.register.password
-// })
-// export default connect(mapStateToProps, {registerSetEmail,registerSetPassword})(Register)
 export default RegisterContainer

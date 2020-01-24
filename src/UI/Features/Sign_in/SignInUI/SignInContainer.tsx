@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import SignIn from "./SignIn";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStateType} from "../../../../MainBll/store";
-import {SignInSetEmailSuccess, SignInSetPasswordSuccess, SignInSetRememberMeSuccess} from "../SignInBll/SignInReducer";
 import {signIn} from "../SignInBll/SignInThunk";
 import {Redirect} from "react-router";
-import {PROFILE_PATH} from "../../../Routes/Routes";
+import {PROFILE_PATH} from "../../../../Routes/Routes";
+
 
 const SignInContainer=()=>{
     let dispatch=useDispatch()
@@ -25,9 +25,6 @@ const SignInContainer=()=>{
         setRememberMe(!rememberME)
     }
     let SignInCallBack=()=>{
-dispatch(SignInSetEmailSuccess(email))
-dispatch(SignInSetPasswordSuccess(password))
-dispatch(SignInSetRememberMeSuccess(rememberME))
         dispatch(signIn(email,password,rememberME))
     }
 if (isAuth) return <Redirect to={PROFILE_PATH}/>
